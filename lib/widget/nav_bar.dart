@@ -14,8 +14,8 @@ class BottomNavBar extends StatelessWidget {
       color: Colors.white,
       child: ClipRRect(
         borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(30),
-          topRight: Radius.circular(30),
+          topLeft: Radius.circular(30.r),
+          topRight: Radius.circular(30.r),
         ),
         child: BottomAppBar(
           shape: CircularNotchedRectangle(inverted: true),
@@ -27,7 +27,7 @@ class BottomNavBar extends StatelessWidget {
                 width: 70.w,
                 decoration: BoxDecoration(
                   color: AppColors.lighterRed,
-                  borderRadius: BorderRadius.circular(25),
+                  borderRadius: BorderRadius.circular(25.r),
                 ),
                 child: IconButton(
                   icon: SvgPicture.asset(SvgAsset.homeIcon),
